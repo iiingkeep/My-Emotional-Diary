@@ -1,0 +1,66 @@
+.Viewer {
+    height: 100vh;
+}
+
+
+.Viewer section {
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Viewer h4 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Viewer .emotionImgWrapper {
+    background-color: white;
+    width: 230px;
+    height: 230px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Viewer .emotionImgWrapper1{
+    background-color: rgb(105, 201, 105);
+}
+.Viewer .emotionImgWrapper2{
+    background-color: rgb(161, 212, 127);
+}
+.Viewer .emotionImgWrapper3{
+    background-color: rgb(255, 208, 0);
+}
+.Viewer .emotionImgWrapper4{
+    background-color: rgb(248, 138, 64);
+}
+.Viewer .emotionImgWrapper5{
+    background-color: rgb(245, 93, 93);
+}
+
+.Viewer .emotionDescript {
+    font-size: 22px;
+    color:rgb(255, 255, 255);
+}
+
+.Viewer .contentWrapper {
+    width: 100%;
+    background-color: rgb(241, 221, 191);
+    border-radius: 20px;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+}
+
+.Viewer .contentWrapper p {
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Gaegu', sans-serif;
+    line-height: 2.5;
+}

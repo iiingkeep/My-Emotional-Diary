@@ -1,0 +1,32 @@
+.DiaryList {
+ height: 100vh;
+}
+
+.DiaryList .MenuWrapper {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.DiaryList .LeftCol select {
+    margin-right: 10px;
+    border: none;
+    border-radius: 18px;
+    background-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Gaegu', sans-serif;
+    font-size: 18px;
+}
+
+.DiaryList .RightCol {
+    flex-grow: 1;
+}
+.DiaryList .RightCol button {
+    width: 100%;
+    font-size: 20px;
+    padding: 9px;
+    border-radius: 18px;
+}
